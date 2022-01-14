@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 
 //https://leetcode.com/problems/top-k-frequent-words/
 public class TopKFrequentWords {
-//Use map to count the frequancy o(n)
+    //Use map to count the frequancy o(n)
     //Use PriorityQueue for
 
     public List<String> topKFrequent(String[] words, int k) {
