@@ -1,8 +1,6 @@
-package arrays;
-
 import java.util.PriorityQueue;
 
-public class KClosestPointsOrigin_usingHeap {
+public class Heap_KClosestPointsOrigin {
     // https://leetcode.com/problems/k-closest-points-to-origin/
 
     // we will use a maxHeap to store the first K elements

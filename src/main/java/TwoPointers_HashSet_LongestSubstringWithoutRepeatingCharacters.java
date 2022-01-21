@@ -1,8 +1,6 @@
-package arrays;
-
 import java.util.HashSet;
 
-public class LongestSubstringWithoutRepeatingCharacters {
+public class TwoPointers_HashSet_LongestSubstringWithoutRepeatingCharacters {
     // buuild a substring by adding chars
     // abcabcbb
     public int lengthOfLongestSubstring(String s) {

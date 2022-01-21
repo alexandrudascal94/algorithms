@@ -1,6 +1,4 @@
-package arrays;
-
-public class SquaresSortedArray_interview {
+public class TwoPointers_SquaresSortedArray {
     // https://leetcode.com/problems/squares-of-a-sorted-array/
 
     private static int[] getSquares(int[] numbers) {

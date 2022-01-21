@@ -10,7 +10,7 @@ Input: s = "the sky is blue"
 Output: "blue is sky the"
 
  */
-public class ReverseWordsInStringII {
+public class _ReverseWordsInStringII {
 
     // 1. split the string
     // 2. I reverse the array, or can create directly the String/StringBuilder

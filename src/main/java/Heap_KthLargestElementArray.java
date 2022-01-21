@@ -1,9 +1,7 @@
-package arrays;
-
 import java.util.PriorityQueue;
 
 //https://leetcode.com/problems/kth-largest-element-in-an-array/
-public class KthLargestElementArray_usingHeap {
+public class Heap_KthLargestElementArray {
 
     public int findKthLargest(int[] nums, int k) {
         // max heap

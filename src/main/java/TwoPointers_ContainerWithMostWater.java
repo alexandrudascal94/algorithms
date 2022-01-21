@@ -1,6 +1,4 @@
-package arrays;
-
-public class ContainerWithMostWater_2Pointers {
+public class TwoPointers_ContainerWithMostWater {
 
     public int maxArea(int[] height) {
         // height[i] and heigth[j]
