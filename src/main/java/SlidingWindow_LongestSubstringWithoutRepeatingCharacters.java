@@ -1,8 +1,10 @@
 import java.util.HashSet;
 
-public class TwoPointers_HashSet_LongestSubstringWithoutRepeatingCharacters {
-    // buuild a substring by adding chars
-    // abcabcbb
+public class SlidingWindow_LongestSubstringWithoutRepeatingCharacters {
+    // 1. take element by element
+    // build the substring in a Set
+    // if the leemnt we process exists we remove the first element
+    // if by removing the substring is valid we continue
     public int lengthOfLongestSubstring(String s) {
         int max = 0;
         int i = 0;

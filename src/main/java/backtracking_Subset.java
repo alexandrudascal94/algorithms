@@ -23,9 +23,16 @@ public class backtracking_Subset {
             // use next integers to complete the combination
             generate(result, current, nums, j + 1);
 
-            // backtrack
+            // backtracking
             current.remove(current.size() - 1);
         }
+    }
 
+    public static void main(String[] args) {
+        var a = new backtracking_Subset().subsets(new int[]{1,2,});
+
+        for (var element :a) {
+            System.out.println(element);
+        }
     }
 }
