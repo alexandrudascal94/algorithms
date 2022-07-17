@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 
 //https://leetcode.com/problems/two-sum/
@@ -36,6 +37,4 @@ public class HashMap_TwoSum {
         }
         return indeces;
     }
-
-
 }

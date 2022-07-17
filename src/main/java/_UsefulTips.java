@@ -15,25 +15,23 @@ public class _UsefulTips {
         new ArrayList<>(map.entrySet());
         Map.Entry<Integer, Integer> mapEntry;
 
-        List<Map.Entry<Integer, Integer>> groups = new ArrayList(mp.entrySet());
+        List<Map.Entry<Integer, Integer>> groups = new ArrayList(map.entrySet());
         map.entrySet();
         map.values();
 
+        var dp = new int[10];
         Arrays.fill(dp,1);
 
-
         //PriorityQueue
-
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>((x, y) -> Integer.compare(x, y));
         PriorityQueue<Integer> minHeap = new PriorityQueue<>((x, y) ->  Integer.compare(y, x));
         maxHeap.poll(); //return head and removes
-        maxHeap.peek(); // retunr head
+        maxHeap.peek(); // return the head
 
-        //Stiings
+        //Strings
         String.valueOf(new char[]{'a','b'}); //creates string from chars
-        Character.isAlphabetic();
-        Character.isDigit();
-        Character.isUpperCase();
-        (int) 'a'
+//        Character.isAlphabetic();
+//        Character.isDigit();
+//        Character.isUpperCase();
     }
 }
