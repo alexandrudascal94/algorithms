@@ -1,5 +1,5 @@
 public class Zelando_BS {
-    int solution(int[] A, int X) {
+    static int solution(int[] A, int X) {
         int N = A.length;
         if (N == 0) {
             return -1;
@@ -18,5 +18,9 @@ public class Zelando_BS {
             return l;
         }
         return -1;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(solution(new int[]{3}, 3));
     }
 }
