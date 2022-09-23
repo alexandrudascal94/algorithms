@@ -17,10 +17,15 @@ public class Zelando_BS {
         if (A[l] == X) {
             return l;
         }
+        else if(A[r] == X ){
+            return r;
+        }
         return -1;
     }
-
+// 3, 5, 7, 8
+// 3
+//
     public static void main(String[] args) {
-        System.out.println(solution(new int[]{3}, 3));
+        System.out.println(solution(new int[]{3, 4, 6, 10, 23}, 4));
     }
 }

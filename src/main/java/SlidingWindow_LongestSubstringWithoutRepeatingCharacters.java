@@ -3,7 +3,7 @@ import java.util.HashSet;
 public class SlidingWindow_LongestSubstringWithoutRepeatingCharacters {
     // 1. take element by element
     // build the substring in a Set
-    // if the leemnt we process exists we remove the first element
+    // if the element we process exists we remove the first element
     // if by removing the substring is valid we continue
     public int lengthOfLongestSubstring(String s) {
         int max = 0;
@@ -25,5 +25,9 @@ public class SlidingWindow_LongestSubstringWithoutRepeatingCharacters {
 
         }
         return max;
+    }
+
+    public static void main(String[] args) {
+        System.out.println( "sdfs".substring(0,2));
     }
 }

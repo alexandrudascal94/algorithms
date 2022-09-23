@@ -5,10 +5,10 @@ import java.util.LinkedList;
 public class MergeIntervals {
 
     // Sort the array
-    // compare the next_begining, current_end -> merge or not
+    // compare the next_beginning, current_end -> merge or not
     public int[][] merge(int[][] intervals) {
 
-        // compare the beginings
+        // compare the beginnings
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
 
         LinkedList<int[]> result = new LinkedList<>();
