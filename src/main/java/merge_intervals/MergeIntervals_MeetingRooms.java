@@ -1,3 +1,5 @@
+package merge_intervals;
+
 import java.util.Arrays;
 
 public class MergeIntervals_MeetingRooms {
