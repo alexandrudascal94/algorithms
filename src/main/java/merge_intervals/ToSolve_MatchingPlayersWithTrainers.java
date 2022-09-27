@@ -1,6 +1,6 @@
 package merge_intervals;
 
-public class MatchingPayersWithTrainers {
+public class ToSolve_MatchingPlayersWithTrainers {
     /***
      * https://leetcode.com/problems/maximum-matching-of-players-with-trainers/
      */
