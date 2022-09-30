@@ -1,7 +1,9 @@
+package hash_set;
+
 import java.util.HashSet;
 //https://leetcode.com/problems/valid-sudoku/
 
-public class HashSet_ValidSudoku {
+public class ValidSudoku {
 
     public boolean isValidSudoku(char[][] board) {
         // iterate all rows and if there are duplicate numbers, use HashSet

@@ -1,8 +1,10 @@
+package bactraking;
+
 import java.util.ArrayList;
 import java.util.List;
 
 //https://leetcode.com/problems/subsets/
-public class backtracking_Subset {
+public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
 
@@ -25,14 +27,6 @@ public class backtracking_Subset {
 
             // backtracking
             current.remove(current.size() - 1);
-        }
-    }
-
-    public static void main(String[] args) {
-        var a = new backtracking_Subset().subsets(new int[]{1,2,});
-
-        for (var element :a) {
-            System.out.println(element);
         }
     }
 }

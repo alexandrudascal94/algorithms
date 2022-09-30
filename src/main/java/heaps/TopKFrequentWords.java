@@ -1,3 +1,5 @@
+package heaps;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -5,7 +7,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 //https://leetcode.com/problems/top-k-frequent-words/
-public class Heap_TopKFrequentWords {
+public class TopKFrequentWords {
     //Use map to count the frequancy o(n)
     //Use PriorityQueue for
 

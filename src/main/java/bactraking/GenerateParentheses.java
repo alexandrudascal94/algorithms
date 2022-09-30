@@ -1,7 +1,9 @@
+package bactraking;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Backtraking_GenerateParentheses {
+public class GenerateParentheses {
     //https://leetcode.com/problems/generate-parentheses/
 
     // ()(())open p == close p

@@ -1,6 +1,8 @@
+package dynamic_programing;
+
 import java.util.Arrays;
 
-public class DynamicProg_LongestIncreasingSubsequence {
+public class LongestIncreasingSubsequence {
 
     /*
     Given an integer array nums, return the length of the longest strictly increasing subsequence.

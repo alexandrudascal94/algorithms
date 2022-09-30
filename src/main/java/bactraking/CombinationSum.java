@@ -1,7 +1,16 @@
+package bactraking;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Backtraking_CombinationSum {
+/***
+ *
+ * https://leetcode.com/problems/combination-sum/
+ *
+ */
+
+
+public class CombinationSum {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
 

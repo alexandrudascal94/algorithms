@@ -1,3 +1,5 @@
+package dynamic_programing;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -25,7 +27,7 @@ import java.util.List;
  * WHen the array is sorted we can eliminate the
  * We need also to remove duplicates
  */
-public class DP_MaximumLengthPairChain {
+public class MaximumLengthPairChain {
 
     public int findLongestChain(int[][] pairs) {
         if (pairs.length <= 1) {

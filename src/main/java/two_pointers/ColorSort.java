@@ -1,4 +1,6 @@
-public class TwoPointers_ColorSort {
+package two_pointers;
+
+public class ColorSort {
     // [2,0,2,1,1,0]
     // start = 0, end = length - 1;
     // iterate, if 0 we swap with start and start++
